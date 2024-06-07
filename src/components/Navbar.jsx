@@ -34,13 +34,13 @@ const Navbar=()=>
                 
               </div>
             </div>
-            <div className="-mr-1 flex md:hidden">
+            <div className="-mr-2 flex md:hidden">
               <button
                 onClick={toggleNavbar}
                 className="inline-flex items-center justify-center p-2 mx-4 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
               >
                 <svg
-                  className="h-6 w-6"
+                  className="h-8 w-8"
                   stroke="currentColor"
                   fill="none"
                   viewBox="0 0 24 24"
