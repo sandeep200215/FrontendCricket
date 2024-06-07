@@ -10,7 +10,7 @@ const Navbar=()=>
   
     return (
       <nav className="bg-gray-800 fixed top-0 w-full   ">
-        <div className="max-w-5xl mx-auto px-2 sm:px-4 lg:px-2  ">
+        <div className="max-w-5xl mx-auto px-4 sm:px-4 lg:px-2  ">
           <div className="flex items-center justify-between h-12">
             <div className="flex-shrink-0">
               <Link to="/Home" className="text-white font-bold">
@@ -34,10 +34,10 @@ const Navbar=()=>
                 
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-1 flex md:hidden">
               <button
                 onClick={toggleNavbar}
-                className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
+                className="inline-flex items-center justify-center p-2 mx-4 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white"
               >
                 <svg
                   className="h-6 w-6"
