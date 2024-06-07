@@ -18,7 +18,7 @@ const Navbar=()=>
               </Link>
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
+              <div className="ml-15 flex items-baseline space-x-4 ">
                 <Link to="/" className="text-gray-300 hover:underline">
                   Home
                 </Link>
@@ -68,10 +68,10 @@ const Navbar=()=>
   
         {isOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+            <div className="px-2 pt-2 pb-3 space-y-1 mx-2 sm:px-4">
               <Link
                 to="/"
-                className="block text-gray-300 hover:underline"
+                className="  block text-gray-300 hover:underline"
               >
                 Home
               </Link>
