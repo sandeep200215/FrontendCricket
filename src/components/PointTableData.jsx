@@ -8,7 +8,7 @@ const PointTableData=()=>{
     useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await axios.get('cricketinformer-production.up.railway.app'); // Replace with your API endpoint
+          const response = await axios.get('cricketinformer-production.up.railway.app/point-table'); // Replace with your API endpoint
           setData(response.data);
           console.log(response.data)
           setIsLoading(false);
