@@ -8,7 +8,7 @@ const LiveData=()=>{
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8080/match/live'); // Replace with your API endpoint
+        const response = await axios.get('cricketinformer-production.up.railway.app'); // Replace with your API endpoint
         setData(response.data);
         setIsLoading(false);
       } catch (error) {

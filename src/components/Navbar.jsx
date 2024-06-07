@@ -18,7 +18,7 @@ const Navbar=()=>
               </Link>
             </div>
             <div className="hidden md:block">
-              <div className="ml-15 flex items-baseline space-x-4 ">
+              <div className="ml-15 flex items-baseline space-x-4 text-xl ">
                 <Link to="/" className="text-gray-300 hover:underline">
                   Home
                 </Link>
